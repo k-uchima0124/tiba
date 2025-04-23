@@ -1,4 +1,4 @@
-drop table subject if exists
+drop table if exists SUBJECT;
 
 
 CREATE TABLE SUBJECT (
@@ -10,4 +10,4 @@ CREATE TABLE SUBJECT (
 
 
 INSERT INTO SUBJECT (SCHOOL_CD,CD,NAME)
-VALUES ('oom','A02','国語’）
+VALUES ('oom','A02','国語');

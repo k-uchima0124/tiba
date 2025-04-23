@@ -1,11 +1,11 @@
-drop table school if exists
+drop table if exists SCHOOL;
 
 
 CREATE TABLE SCHOOL(
     CD CHAR(3) NOT NULL PRIMARY KEY,
     NAME VARCHAR(20) DEFAULT NULL
-)
+);
 
 
 INSERT INTO SCHOOL(CD, NAME)
-VALUES ('oom', '学校名')
+VALUES ('oom', '学校名');

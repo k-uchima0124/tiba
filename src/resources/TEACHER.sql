@@ -1,13 +1,13 @@
-drop table teacher if exists
+drop table if exists TEACHER;
 
 
 CREATE TABLE TEACHER(
 	ID VARCHAR(10) NOT NULL PRIMARY KEY,
 	PASSWORD VARCHAR(30) DEFAULT NULL,
 	NAME VARCHAR(10) DEFAULT NULL,
-	SCHOOL_CD CHAR(3) DEFAULT NULL,
+	SCHOOL_CD CHAR(3) DEFAULT NULL
 );
 
 
 INSERT INTO TEACHER(ID,PASSWORD,NAME,SCHOOL_CD)
-VALUES('admin','password','大原花子','oom')
+VALUES('admin','password','大原花子','oom');
