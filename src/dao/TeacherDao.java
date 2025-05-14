@@ -1,13 +1,7 @@
 package dao;
-<<<<<<< HEAD
-
-public class TeacherDao {
-
-}
-=======
 import bean.TEACHER;
 
-public class TeacherDao {
+public class TeacherDao extends Dao {
     public TEACHER get(String username, String password) {
     	TEACHER teacher = null;
     	return teacher;
@@ -26,4 +20,3 @@ public class TeacherDao {
 
 
 
->>>>>>> branch 'master' of https://github.com/k-uchima0124/tiba.git
