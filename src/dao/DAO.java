@@ -9,7 +9,6 @@ public class DAO {
     // 🔹 データソース（DataSource）を管理する static 変数
     // → 一度取得したデータソースを再利用することで、効率的に接続を管理
     static DataSource ds;
-
     /**
      * 🔗 データベース接続を取得するメソッド
      *
