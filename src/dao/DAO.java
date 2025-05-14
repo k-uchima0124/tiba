@@ -31,4 +31,5 @@ public class DAO {
         // ④ `DataSource` を利用して `Connection` を取得し、呼び出し元に返す
         return ds.getConnection();
     }
+
 }
