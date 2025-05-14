@@ -13,6 +13,7 @@ public class LoginAction extends Action {
 		HttpServletRequest request, HttpServletResponse response
 	) throws Exception {
 
+
 		HttpSession session=request.getSession();
 
 		String login=request.getParameter("login");
