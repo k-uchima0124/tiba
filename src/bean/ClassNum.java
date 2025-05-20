@@ -1,6 +1,6 @@
 package bean;
 
-public class CLASS_NUM implements java.io.Serializable {
+public class ClassNum implements java.io.Serializable {
 
 //	例
 //	private int id;

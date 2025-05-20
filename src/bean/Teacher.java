@@ -1,6 +1,6 @@
 package bean;
 
-public class TEACHER implements java.io.Serializable {
+public class Teacher implements java.io.Serializable {
 
 //	例
 //	private int id;

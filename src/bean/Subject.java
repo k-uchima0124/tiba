@@ -1,6 +1,6 @@
 package bean;
 
-public class SUBJECT implements java.io.Serializable {
+public class Subject implements java.io.Serializable {
 
 //	例
 //	private int id;
