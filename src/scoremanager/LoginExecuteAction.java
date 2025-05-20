@@ -26,11 +26,6 @@ public class LoginExecuteAction extends Action{
 		if (teacher != null){
 			return "menu.jsp";
 		}
-
-
-
-
 		return "login.jsp";
-
 	}
 }
