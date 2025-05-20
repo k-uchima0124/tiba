@@ -23,10 +23,14 @@ public class LoginExecuteAction extends Action{
 
 		Teacher teacher = dao.login(id, password);
 
+		if (teacher != null){
+			return "menu.jsp";
+		}
 
 
 
 
-		return "menu.jsp";
+		return "login.jsp";
+
 	}
 }
