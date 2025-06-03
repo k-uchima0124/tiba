@@ -17,7 +17,7 @@
 
     <div id="menu">
         <h2>メニュー</h2>
-        <a id="menu-item-1" class="menu-item" href="example.jsp">学生管理</a>
+        <a id="menu-item-1" class="menu-item" href="student_list.jsp">学生管理</a>
         <a id="menu-item-2" class="menu-item" href="example.jsp">成績管理</a>
         <a id="menu-item-3" class="menu-item" href="example.jsp">成績登録</a>
         <a id="menu-item-4" class="menu-item" href="example.jsp">成績修正</a>
