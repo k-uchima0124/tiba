@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class H2DataChecker {
     // H2データベース接続
-    private static final String JDBC_URL = "jdbc:h2:~/test2";
+    private static final String JDBC_URL = "jdbc:h2:tcp://localhost:9092/~/kakeru";
     private static final String USER = "sa";
     private static final String PASSWORD = "";
 

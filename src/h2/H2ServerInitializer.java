@@ -8,8 +8,6 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-import org.h2.tools.Server;
-
 @WebListener
 public class H2ServerInitializer implements ServletContextListener {
     private static Server server; // H2サーバーインスタンス

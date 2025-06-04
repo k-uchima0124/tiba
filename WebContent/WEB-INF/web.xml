@@ -2,7 +2,7 @@
 <!--  コンテキストルートのウェルカムページを設定  -->
 
 
-    <servlet>
+<servlet>
 <servlet-name>Login</servlet-name>
 <servlet-class>/scoremanager.LoginAction</servlet-class>
 </servlet>
