@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import bean.Teacher;
 
 public class TeacherDao extends Dao {
-    private static final String JDBC_URL = "jdbc:h2:~/test2"; // データベースのパス
+    private static final String JDBC_URL = "jdbc:h2:tcp://localhost:9092/~/kakeru"; // データベースのパス
     private static final String JDBC_USER = "sa"; // デフォルトユーザー
     private static final String JDBC_PASSWORD = ""; // パスワード（デフォルトは空）
 
