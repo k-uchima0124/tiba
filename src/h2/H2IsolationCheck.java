@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class H2IsolationCheck {
     public static void main(String[] args) throws Exception {
-        Connection con = DriverManager.getConnection("jdbc:h2:~/test2", "sa", "");
+        Connection con = DriverManager.getConnection("jdbc:h2:tcp://localhost:9092/~/kakeru", "sa", "");
         int isolationLevel = con.getTransactionIsolation();
 
         switch (isolationLevel) {
