@@ -26,7 +26,10 @@ public class LoginExecuteAction extends Action{
 
 		if (teacher != null){
 			return "menu.jsp";
-		}
-		return "login.jsp";
+		}else {
+            // ログイン失敗 → ログインページへ戻る
+            request.setAttribute("errorMessage", "ログイン名またはパスワードが間違っています");
+            return "login.jsp";
+        }
 	}
 }
