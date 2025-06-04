@@ -10,7 +10,7 @@ public class LoginAction extends Action {
         HttpServletRequest request, HttpServletResponse response
     ) throws Exception {
 
-            return "login.jsp";
+            return "JSPFiles/login.jsp";
 
 
     }

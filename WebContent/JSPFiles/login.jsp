@@ -6,14 +6,14 @@
   <title>ログイン画面</title>
 </head>
 <body>
-  <form action="/scoremanager/LoginExecuteAction.java" method="post">
+  <form action="scoremanager/LoginExecute.action" method="post">
     <p>
-      <label for="login">ログイン名</label>
-      <input type="text" id="login" name="login" required>
+      <label for="id">ログイン名</label>
+      <input type="text" id="id" name="id" required>
     </p>
     <p>
-      <label for="password">パスワード</label>
-      <input type="password" id="password" name="password" required>
+      <label for="pass">パスワード</label>
+      <input type="password" id="pass" name="pass" required>
     </p>
     <p>
       <input type="submit" value="ログイン">

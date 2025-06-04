@@ -17,12 +17,12 @@
 
     <div id="menu">
         <h2>メニュー</h2>
-        <a id="menu-item-1" class="menu-item" href="student_list.jsp">学生管理</a>
-        <a id="menu-item-2" class="menu-item" href="example.jsp">成績管理</a>
-        <a id="menu-item-3" class="menu-item" href="example.jsp">成績登録</a>
-        <a id="menu-item-4" class="menu-item" href="example.jsp">成績修正</a>
-        <a id="menu-item-5" class="menu-item" href="example.jsp">利用者管理</a>
-        <a id="menu-item-6" class="menu-item" href="example.jsp">ログアウト</a>
+        <a id="menu-item-1" class="menu-item" href="/JSPFiles/student_list.jsp">学生管理</a>
+        <a id="menu-item-2" class="menu-item" href="/JSPFiles/example.jsp">成績管理</a>
+        <a id="menu-item-3" class="menu-item" href="/JSPFiles/example.jsp">成績登録</a>
+        <a id="menu-item-4" class="menu-item" href="/JSPFiles/example.jsp">成績修正</a>
+        <a id="menu-item-5" class="menu-item" href="/JSPFiles/example.jsp">利用者管理</a>
+        <a id="menu-item-6" class="menu-item" href="JSPFiles/logout.jsp">ログアウト</a>
     </div>
 
     <footer>&copy; 2019 PC</footer>
