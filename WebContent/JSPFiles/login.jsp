@@ -6,7 +6,7 @@
   <title>ログイン画面</title>
 </head>
 <body>
-  <form action="LoginExecuteAction.java" method="post">
+  <form action="/scoremanager/LoginExecuteAction.java" method="post">
     <p>
       <label for="login">ログイン名</label>
       <input type="text" id="login" name="login" required>
